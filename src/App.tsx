@@ -81,13 +81,13 @@ function App() {
       </Container>
       <Footer>
         <div className="flex items-center justify-between w-[255px] h-16 rounded-2xl border-[#E5E7EB] border-2 bg-white">
-          <Button>
+          <Button disableRipple>
             <i className="flex items-center fi fi-br-search scale-200"></i>
           </Button>
           <Popover className="
           flex items-center
           rounded-2xl h-[104px] w-[90vw]
-          max-w-[390px]
+          max-w-full
           bg-white drop-shadow-[0_-6px_18.8px_rgba(0,0,0,0.2)]
           overflow-x-scroll p-1" backdrop="blur" placement="top" offset={25}>
             <PopoverTrigger>
@@ -110,7 +110,7 @@ function App() {
               </div>
             </PopoverContent>
           </Popover>
-          <Button>
+          <Button disableRipple>
             <i className="flex items-center fi fi-rs-holding-hand-dinner scale-200"></i>
           </Button>
         </div>

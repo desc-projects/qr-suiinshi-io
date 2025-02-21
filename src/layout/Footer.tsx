@@ -7,8 +7,8 @@ interface ContainerProps {
 export const Footer: React.FC<ContainerProps> = ({ children }) => {
   return (
     <>
-      <footer className="fixed bottom-0 left-0 w-full h-[121px]">
-        <div className="backdrop-blur-[13.8px] bg-white bg-opacity-50 container mx-auto px-4 h-full flex items-center justify-center">
+      <footer className="fixed bottom-0 left-0 bg-white/50 backdrop-blur-sm w-full h-[121px] z-50">
+        <div className="container mx-auto px-4 h-full flex items-center justify-center">
             {children}
         </div>
       </footer>
