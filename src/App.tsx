@@ -84,16 +84,26 @@ function App() {
           <Button>
             <i className="flex items-center fi fi-br-search scale-200"></i>
           </Button>
-          <Popover backdrop="blur" placement="top">
+          <Popover className="
+          rounded-2xl h-[104px] w-[408px]
+          bg-white drop-shadow-[0_-6px_18.8px_rgba(0,0,0,0.2)]
+          overflow-x-scroll p-1" backdrop="blur" placement="top" offset={30}>
             <PopoverTrigger>
               <Button>
                 <i className="flex items-center fi fi-br-menu-burger scale-200"></i>
               </Button>
             </PopoverTrigger>
             <PopoverContent>
-              <div className="px-1 py-2">
-                <div className="text-small font-bold">Popover Content</div>
-                <div className="text-tiny">This is the popover content</div>
+              <div className="flex items-center justify-between w-full">
+              {
+                Array.from({length: 10}).map((_, idx) => (
+                  <div key={idx}
+                  className="m-5 p-1">
+                    <i className="flex items-center fi fi-rs-holding-hand-dinner scale-300"></i>
+                    Pizza
+                  </div>
+                ))
+              }
               </div>
             </PopoverContent>
           </Popover>
