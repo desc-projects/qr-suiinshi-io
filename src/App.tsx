@@ -1,14 +1,16 @@
 import "./App.css";
+
 import { Footer } from "./layout/Footer";
 import { Container } from "./layout/Container";
-import { Button, Popover, PopoverContent, PopoverTrigger } from "@heroui/react";
 import { Header } from "./layout/Header";
+
+import { Button, Popover, PopoverContent, PopoverTrigger } from "@heroui/react";
 
 function App() {
   return (
     <>
       <Header>
-        <h1 className="mt-12 scale-85 font-medium">Suiinshi</h1>
+        <h1 className="mt-12 scale-85 font-medium">{import.meta.env.VITE_HEADER_TITLE_RESTAURANT}</h1>
       </Header>
       <Container>
         Lorem Ipsum is simply dummy text of the printing and typesetting
