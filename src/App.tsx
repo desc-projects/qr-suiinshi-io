@@ -6,7 +6,6 @@ import { Header } from "./layout/Header";
 
 import {
   Button,
-  Divider,
   Drawer,
   DrawerBody,
   DrawerContent,
