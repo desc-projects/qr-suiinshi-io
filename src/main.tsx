@@ -16,8 +16,8 @@ createRoot(document.getElementById("root")!).render(
       <HeroUIProvider>
         <Routes>
           <Route path="/" element={<App />}>
-            <Route path="/greet" element={<Greet />} />
             <Route path="/menu" element={<Menu />} />
+            <Route path="/greet" element={<Greet />} />
           </Route>
         </Routes>
       </HeroUIProvider>

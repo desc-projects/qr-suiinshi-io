@@ -22,12 +22,12 @@ import { Outlet, useNavigate } from "react-router";
 
 function App() {
   const navigate = useNavigate();
-  const {isOpen, onOpen, onOpenChange} = useDisclosure();
+  const { isOpen, onOpen, onOpenChange } = useDisclosure();
 
   return (
     <>
       <Header>
-        <h1 className="mt-12 scale-85 font-medium">
+        <h1 className="mt-8 scale-75 font-medium">
           {import.meta.env.VITE_HEADER_TITLE_RESTAURANT}
         </h1>
       </Header>
@@ -48,18 +48,18 @@ function App() {
                 <>
                   <DrawerHeader className="flex justify-center gap-1">
                     <Input
-                    classNames={{
-                      inputWrapper: [
-                        'my-6',
-                        'border-[#CBCBCB]',
-                        'border-2',
-                        'rounded-[10px]',
-                        'p-6',
-                        'shadow-none',
-                        'bg-[#F8F8F8]'
-                      ] 
-                    }}
-                    placeholder="Search"></Input>
+                      classNames={{
+                        inputWrapper: [
+                          'my-6',
+                          'border-[#CBCBCB]',
+                          'border-2',
+                          'rounded-[10px]',
+                          'p-6',
+                          'shadow-none',
+                          'bg-[#F8F8F8]'
+                        ]
+                      }}
+                      placeholder="Search"></Input>
                   </DrawerHeader>
                   <DrawerBody>
                     <p>
