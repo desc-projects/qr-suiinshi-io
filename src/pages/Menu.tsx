@@ -13,7 +13,7 @@ export const Menu: React.FC = () => {
       <h1 className="text-2xl text-left">Menu</h1>
       {
         Array.from({ length: 10 }).map((_, idx) => (
-          <div>
+          <div key={idx}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolores dolorem explicabo blanditiis eos voluptatibus libero corrupti reiciendis architecto molestias! Nobis, ea. Aspernatur illum laboriosam, a quia molestiae deleniti consequatur.
           </div>
         ))
