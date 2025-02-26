@@ -1510,6 +1510,24 @@
   dependencies:
     "@swc/helpers" "^0.5.0"
 
+"@ionic/core@8.4.3":
+  version "8.4.3"
+  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-8.4.3.tgz#109868f5b44b178a46489c1de56f16f300684b6e"
+  integrity sha512-U9HdZ32bre6OKA5akJVmQMxNB8Art3Nqdn3s7m2W83I5NhLg9Tehaf8ua8jxPZtxCa1nuN7tUbzHmMCkcdqDTw==
+  dependencies:
+    "@stencil/core" "4.20.0"
+    ionicons "^7.2.2"
+    tslib "^2.1.0"
+
+"@ionic/react@^8.4.3":
+  version "8.4.3"
+  resolved "https://registry.yarnpkg.com/@ionic/react/-/react-8.4.3.tgz#c9505e6eb2bee2a3192c35804d59cfb1b58d8ad2"
+  integrity sha512-AqwmoRCjTDBIgmywE6VnOOacOry21ma6TWMS8Dg8ZGu41rT6edDSmX/lKvAAV+jg4TkjE/U5n//OxzHBY/0+Zg==
+  dependencies:
+    "@ionic/core" "8.4.3"
+    ionicons "^7.0.0"
+    tslib "*"
+
 "@jridgewell/gen-mapping@^0.3.5":
   version "0.3.8"
   resolved "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.8.tgz"
@@ -3216,6 +3234,16 @@
   resolved "https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.34.8.tgz#4cdb2cfae69cdb7b1a3cc58778e820408075e928"
   integrity sha512-U0FaE5O1BCpZSeE6gBl3c5ObhePQSfk9vDRToMmTkbhCOgW4jqvtS5LGyQ76L1fH8sM0keRp4uDTsbjiUyjk0g==
 
+"@stencil/core@4.20.0":
+  version "4.20.0"
+  resolved "https://registry.yarnpkg.com/@stencil/core/-/core-4.20.0.tgz#221f2b36ab999891560449b02d6915862c435f49"
+  integrity sha512-WPrTHFngvN081RY+dJPneKQLwnOFD60OMCOQGmmSHfCW0f4ujPMzzhwWU1gcSwXPWXz5O+8cBiiCaxAbJU7kAg==
+
+"@stencil/core@^4.0.3":
+  version "4.27.1"
+  resolved "https://registry.yarnpkg.com/@stencil/core/-/core-4.27.1.tgz#d9c97b0e144747e4be4d86d733f972ff5e1f9bee"
+  integrity sha512-wJ+U3yJ9xSrME1PheHh8DnZrgFhjTlvF54mkA0tzTDXYdrEAYXIEAAeWbXx3munYX2Lqj3oDBEDsbsJNxDkwzA==
+
 "@swc/core-darwin-arm64@1.10.18":
   version "1.10.18"
   resolved "https://registry.npmjs.org/@swc/core-darwin-arm64/-/core-darwin-arm64-1.10.18.tgz#21415e0b08edbefbc2fc2d4a710a0978f220239d"
@@ -4115,6 +4143,13 @@ intl-messageformat@^10.1.0:
     "@formatjs/icu-messageformat-parser" "2.11.1"
     tslib "2"
 
+ionicons@^7.0.0, ionicons@^7.2.2:
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/ionicons/-/ionicons-7.4.0.tgz#9c285aaa8089befbd6c5a89ae13292d364cd9ace"
+  integrity sha512-ZK94MMqgzMCPPMhmk8Ouu6goyVHFIlw/ACP6oe3FrikcI0N7CX0xcwVaEbUc0G/v3W0shI93vo+9ve/KpvcNhQ==
+  dependencies:
+    "@stencil/core" "^4.0.3"
+
 is-arrayish@^0.3.1:
   version "0.3.2"
   resolved "https://registry.npmjs.org/is-arrayish/-/is-arrayish-0.3.2.tgz#4574a2ae56f7ab206896fb431eaeed066fdf8f03"
@@ -4693,7 +4728,7 @@ ts-api-utils@^2.0.1:
   resolved "https://registry.npmjs.org/ts-api-utils/-/ts-api-utils-2.0.1.tgz"
   integrity sha512-dnlgjFSVetynI8nzgJ+qF62efpglpWRk8isUEWZGWlJYySCTD6aKvbUDu+zbPeDakk3bg5H4XpitHukgfL1m9w==
 
-tslib@2, tslib@^2.0.0, tslib@^2.1.0, tslib@^2.4.0, tslib@^2.8.0:
+tslib@*, tslib@2, tslib@^2.0.0, tslib@^2.1.0, tslib@^2.4.0, tslib@^2.8.0:
   version "2.8.1"
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz#612efe4ed235d567e8aba5f2a5fab70280ade83f"
   integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
