@@ -38,12 +38,12 @@ function App() {
         <div className="flex items-center justify-between w-[255px] h-16 rounded-2xl border-[#E5E7EB] border-2 bg-white">
           <Drawer
             backdrop="blur"
-            size="5xl"
+            size="full"
             isOpen={isOpen}
             placement={'bottom'}
             onOpenChange={onOpenChange}
           >
-            <DrawerContent className="h-[90%] py-4 bg-[#FCFBFB] text-[#202020] border-2 rounded-2xl border-[#E5E7EB]">
+            <DrawerContent className="py-4 bg-[#FCFBFB] text-[#202020]">
               {(onClose) => (
                 <>
                   <DrawerHeader className="flex justify-center gap-1">
